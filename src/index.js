@@ -9,6 +9,7 @@ import Scoreoverzicht from './components/Pages/Scoreoverzicht';
 import Totaal from './components/Pages/Totaal'
 import Totaalmod from './components/Pages/Totaalmod';
 import Totaaltaak from './components/Pages/Totaaltaak'
+import Vragenlijsten from './components/Pages/Vragenlijsten'
 
 import {
   createBrowserRouter,
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
 {
   path: "Totaaltaak",
   element: <Totaaltaak/>,
+},
+{
+  path: "Vragenlijsten",
+  element: <Vragenlijsten/>,
 },
 ]);
 
