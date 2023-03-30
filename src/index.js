@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Q2 from './components/Pages/Q2'
+import Q3 from './components/Pages/Q3'
+import Scoreoverzicht from './components/Pages/Scoreoverzicht';
+import Totaal from './components/Pages/Totaal'
+import Totaalmod from './components/Pages/Totaalmod';
+import Totaaltaak from './components/Pages/Totaaltaak'
 
 import {
   createBrowserRouter,
@@ -19,6 +24,26 @@ const router = createBrowserRouter([
     path: "Q2",
     element: <Q2/>,
   },
+  {
+    path: "Q3",
+    element: <Q3/>,
+  },
+  {
+    path: "Scoreoverzicht",
+    element: <Scoreoverzicht/>,
+  },
+  {
+    path: "Totaal",
+    element: <Totaal/>,
+  },
+  {
+  path: "Totaalmod",
+  element: <Totaalmod/>,
+},
+{
+  path: "Totaaltaak",
+  element: <Totaaltaak/>,
+},
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

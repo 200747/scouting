@@ -47,7 +47,39 @@ code {
 
 }
 
+table {
+  margin: 0 auto;
+}
 
+
+tr th {
+  border: 5px solid;
+
+}
+
+
+.item {
+  border: 5px solid;
+}
+
+.aah {
+  border: 2px solid;
+}
+
+.haha {
+  width: 2rem;
+}
+
+.invisible {
+ border-left: none;
+ border-right: none;
+ border-bottom: none;
+}
+
+.haha2 {
+  border-left: none;
+  
+}
 
 
 

@@ -14,8 +14,8 @@ const Q1 = () => {
         
     <div className=''>
       <div className=''>
-      <div className='float-left mt-16 ml-8 mr-8 rah'><a href="/"><img src={arrow} alt="Arrow" /></a></div>
-      <div className='float-right mt-16 ml-8 mr-8'><a href="Q2"><img src={arrow} alt="Arrow" /></a></div>
+      <div className='float-left mt-12 ml-8 mr-8 rah'><a href="/"><img src={arrow} alt="Arrow" /></a></div>
+      <div className='float-right mt-12 ml-8 mr-8'><a href="Q2"><img src={arrow} alt="Arrow" /></a></div>
       </div>
       <div className='aaa grid grid-cols-5 mt-8 gap-2 text-center'>
             <div className='square hehe   leading-[160px]  h-[11rem] mt-8 rounded-xl'>1</div >
