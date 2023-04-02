@@ -14,8 +14,8 @@ const Totaaltaak = () => {
 
       <div className=''>
       <div className=''>
-        <div className='float-left mt-12 ml-8 mr-8'><a href="Totaalmod"><img src={arrow2} alt="Arrow2" /></a></div>
-        <div className='float-right mt-12 ml-8 mr-8'><a href="Vragenlijsten"><img src={arrow} alt="Arrow" /></a></div>
+        <div className='float-left w-20 mt-12 ml-8  mr-8 ger2'><a href="Totaalmod"><img src={arrow2} alt="Arrow2" /></a></div>
+        <div className='float-right w-20 mt-12 ml-8 mr-8 gor2'><a href="Vragenlijsten"><img src={arrow} alt="Arrow" /></a></div>
       </div>
       <table className='w-[70%] mt-8'>
         <tr>

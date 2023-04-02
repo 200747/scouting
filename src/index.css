@@ -81,6 +81,49 @@ tr th {
   
 }
 
+.vragen {
+  border: 2px solid black;
+  gap: 8;
+}
+
+.gah {
+  border-collapse: separate; 
+  padding: 0;
+  width: 10v
+}
+
+@media only screen and (max-width: 940px) {
+.vragen {
+  border: 2px solid black;
+  gap: 8;
+  display: block;
+  margin-top: 20px;
+  width: 40vw;
+  position: relative;
+}
+}
+
+@media only screen and (max-width: 940px) {
+  .ger {
+    width: 8%;
+  }
+  .gor {
+    width: 8%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .ger2 {
+    width: 8%;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .gor2 {
+    width: 8%;
+    margin: 0;
+    margin-right: 15px;
+  }
+}
 
 
 
