@@ -112,7 +112,7 @@ tr th {
   }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1020px) {
   .ger2 {
     width: 8%;
     margin: 0;
